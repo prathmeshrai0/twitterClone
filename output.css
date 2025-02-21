@@ -1010,6 +1010,11 @@
       justify-content: space-around;
     }
   }
+  .sm\:px-0 {
+    @media (width >= 40rem) {
+      padding-inline: calc(var(--spacing) * 0);
+    }
+  }
   .sm\:px-1 {
     @media (width >= 40rem) {
       padding-inline: calc(var(--spacing) * 1);
