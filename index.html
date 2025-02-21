@@ -12,10 +12,10 @@
 
   <link rel="stylesheet" href="output.css">
 </head>
-
+ 
 <body class="bg-black text-white">
-  <div class="flex  mx-auto justify-center w-fit px-7 h-auto     border-amber-600   ">
-    <div class="first   ">
+  <div class="flex  mx-auto justify-center w-fit md:px-7 h-auto  sm:px-1   border-amber-600    ">
+    <div class="first   sm:block hidden    ">
       
 
       <div class="sidebar sticky top-0 ">
@@ -116,7 +116,7 @@
         </ul>   
       </div>
     </div>
-    <div class="second border  border-x-tailwind-border border-y-black  ">
+    <div class="second    border-x-tailwind-border border-y-black   border sm:w-fit ">
       <div class="top flex   h-14 [&>div]:w-full  sticky top-0 bg-black   opacity-75 z-10  backdrop-blur-2xl ">
         <div
           class="left cursor-pointer font-bold      text-center h-full flex items-center justify-center hover:bg-[#1d1d1d] transition-all duration-200 relative">
@@ -183,14 +183,14 @@
 
       </div>
 
-      <div class="explorePosts   cursor-pointer ">
+      <div class="explorePosts   cursor-pointer border w-min ">
         <div class="post  border-y border-tailwind-border   p-4 w-fit ">
-          <div class="postHeader  flex gap-2   ">
+          <div class="postHeader  flex gap-2  border ">
             <img src="assets/img/profile_pic.jpg" class="size-11 rounded-full object-cover" alt="">
 
             <div class="userInfo-postData w-full    flex flex-col">
               <div class="w-full">
-                <div class="infoAndMore flex   border-amber-500 justify-between w-full">
+                <div class="infoAndMore flex border  border-amber-500 md:justify-between sm:justify-around max-w-[85%]">
                   <div
                     class="info flex gap-1 items-start [&>p]:text-[#5e6367] [&>p:first-child]:text-white [&>p:first-child]:hover:underline [&>p:last-child]:hover:underline">
                     <p class="font-bold"> Bhaaagii </p>
@@ -222,314 +222,10 @@
               </p>
 
               <video src="assets/videos/3_games.mp4" controls autoplay muted
-                class="h-96 w-full  border border-tailwind-border rounded-2xl"></video>
+                class="h-96   border   rounded-2xl  w-[85%]   "></video>
               <!-- [&>div>span:first-child]:text-tailwind-blue  -->
               <div
-                class="interactions flex justify-between items-center  [&>div]:flex [&>div]:items-center [&>div]:gap-1 mt-2.5    [&>div]:w-20  [&>div>span:first-child]:p-1.5 ">
-
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:text-tailwind-blue ">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    chat_bubble</span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover  transition-all duration-150 hover:!text-green-600"
-                  data-color="green">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">share </span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:!text-pink-600"
-                  data-color="red">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    favorite
-                  </span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:text-tailwind-blue">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    bar_chart</span>
-                  <span>25</span>
-                </div>
-                <div> <span class="material-symbols-outlined custom-posts-hover" style="font-size: 21px;">
-                    bookmark
-                  </span> <span class="material-symbols-outlined custom-posts-hover" style="font-size: 21px;">
-                    upload
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="post  border-y border-tailwind-border   p-4 w-fit ">
-          <div class="postHeader  flex gap-2   ">
-            <img src="assets/img/profile_pic.jpg" class="size-11 rounded-full object-cover" alt="">
-
-            <div class="userInfo-postData w-full    flex flex-col">
-              <div class="w-full">
-                <div class="infoAndMore flex   border-amber-500 justify-between w-full">
-                  <div
-                    class="info flex gap-1 items-start [&>p]:text-[#5e6367] [&>p:first-child]:text-white [&>p:first-child]:hover:underline [&>p:last-child]:hover:underline">
-                    <p class="font-bold"> Bhaaagii </p>
-                    <p> @bhagamathiiii </p>
-                    <p>.</p>
-                    <p>date</p>
-                  </div>
-                  <div class="moreOptions flex  items-start h-fit     ">
-                    <div
-                      class="grok rounded-full p-1.5  hover:bg-[#202031]  hover:[&>svg]:fill-tailwind-blue transition-all duration-150">
-
-                      <svg viewBox="0 0 24 24" aria-hidden="true"
-                        class=" size-5    fill-white  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                        <g>
-                          <path
-                            d="M2.205 7.423L11.745 21h4.241L6.446 7.423H2.204zm4.237 7.541L2.2 21h4.243l2.12-3.017-2.121-3.02zM16.957 0L9.624 10.435l2.122 3.02L21.2 0h-4.243zm.767 6.456V21H21.2V1.51l-3.476 4.946z">
-                          </path>
-                        </g>
-                      </svg>
-                    </div>
-                    <span class="material-symbols-outlined rounded-full custom-posts-hover" style="font-size: 20px;">
-                      more_horiz
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <p>Last year miss aina kukkani isari rendu sarlu denge chance ochindi
-                <span class="text-tailwind-blue">@KKRiders</span>
-              </p>
-
-              <video src="assets/videos/3_games.mp4" controls autoplay muted
-                class="h-96 w-full  border border-tailwind-border rounded-2xl"></video>
-              <!-- [&>div>span:first-child]:text-tailwind-blue  -->
-              <div
-                class="interactions flex justify-between items-center  [&>div]:flex [&>div]:items-center [&>div]:gap-1 mt-2.5    [&>div]:w-20  [&>div>span:first-child]:p-1.5 ">
-
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:text-tailwind-blue ">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    chat_bubble</span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover  transition-all duration-150 hover:!text-green-600"
-                  data-color="green">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">share </span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:!text-pink-600"
-                  data-color="red">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    favorite
-                  </span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:text-tailwind-blue">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    bar_chart</span>
-                  <span>25</span>
-                </div>
-                <div> <span class="material-symbols-outlined custom-posts-hover" style="font-size: 21px;">
-                    bookmark
-                  </span> <span class="material-symbols-outlined custom-posts-hover" style="font-size: 21px;">
-                    upload
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="post  border-y border-tailwind-border   p-4 w-fit ">
-          <div class="postHeader  flex gap-2   ">
-            <img src="assets/img/profile_pic.jpg" class="size-11 rounded-full object-cover" alt="">
-
-            <div class="userInfo-postData w-full    flex flex-col">
-              <div class="w-full">
-                <div class="infoAndMore flex   border-amber-500 justify-between w-full">
-                  <div
-                    class="info flex gap-1 items-start [&>p]:text-[#5e6367] [&>p:first-child]:text-white [&>p:first-child]:hover:underline [&>p:last-child]:hover:underline">
-                    <p class="font-bold"> Bhaaagii </p>
-                    <p> @bhagamathiiii </p>
-                    <p>.</p>
-                    <p>date</p>
-                  </div>
-                  <div class="moreOptions flex  items-start h-fit     ">
-                    <div
-                      class="grok rounded-full p-1.5  hover:bg-[#202031]  hover:[&>svg]:fill-tailwind-blue transition-all duration-150">
-
-                      <svg viewBox="0 0 24 24" aria-hidden="true"
-                        class=" size-5    fill-white  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                        <g>
-                          <path
-                            d="M2.205 7.423L11.745 21h4.241L6.446 7.423H2.204zm4.237 7.541L2.2 21h4.243l2.12-3.017-2.121-3.02zM16.957 0L9.624 10.435l2.122 3.02L21.2 0h-4.243zm.767 6.456V21H21.2V1.51l-3.476 4.946z">
-                          </path>
-                        </g>
-                      </svg>
-                    </div>
-                    <span class="material-symbols-outlined rounded-full custom-posts-hover" style="font-size: 20px;">
-                      more_horiz
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <p>Last year miss aina kukkani isari rendu sarlu denge chance ochindi
-                <span class="text-tailwind-blue">@KKRiders</span>
-              </p>
-
-              <video src="assets/videos/3_games.mp4" controls autoplay muted
-                class="h-96 w-full  border border-tailwind-border rounded-2xl"></video>
-              <!-- [&>div>span:first-child]:text-tailwind-blue  -->
-              <div
-                class="interactions flex justify-between items-center  [&>div]:flex [&>div]:items-center [&>div]:gap-1 mt-2.5    [&>div]:w-20  [&>div>span:first-child]:p-1.5 ">
-
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:text-tailwind-blue ">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    chat_bubble</span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover  transition-all duration-150 hover:!text-green-600"
-                  data-color="green">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">share </span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:!text-pink-600"
-                  data-color="red">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    favorite
-                  </span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:text-tailwind-blue">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    bar_chart</span>
-                  <span>25</span>
-                </div>
-                <div> <span class="material-symbols-outlined custom-posts-hover" style="font-size: 21px;">
-                    bookmark
-                  </span> <span class="material-symbols-outlined custom-posts-hover" style="font-size: 21px;">
-                    upload
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="post  border-y border-tailwind-border   p-4 w-fit ">
-          <div class="postHeader  flex gap-2   ">
-            <img src="assets/img/profile_pic.jpg" class="size-11 rounded-full object-cover" alt="">
-
-            <div class="userInfo-postData w-full    flex flex-col">
-              <div class="w-full">
-                <div class="infoAndMore flex   border-amber-500 justify-between w-full">
-                  <div
-                    class="info flex gap-1 items-start [&>p]:text-[#5e6367] [&>p:first-child]:text-white [&>p:first-child]:hover:underline [&>p:last-child]:hover:underline">
-                    <p class="font-bold"> Bhaaagii </p>
-                    <p> @bhagamathiiii </p>
-                    <p>.</p>
-                    <p>date</p>
-                  </div>
-                  <div class="moreOptions flex  items-start h-fit     ">
-                    <div
-                      class="grok rounded-full p-1.5  hover:bg-[#202031]  hover:[&>svg]:fill-tailwind-blue transition-all duration-150">
-
-                      <svg viewBox="0 0 24 24" aria-hidden="true"
-                        class=" size-5    fill-white  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                        <g>
-                          <path
-                            d="M2.205 7.423L11.745 21h4.241L6.446 7.423H2.204zm4.237 7.541L2.2 21h4.243l2.12-3.017-2.121-3.02zM16.957 0L9.624 10.435l2.122 3.02L21.2 0h-4.243zm.767 6.456V21H21.2V1.51l-3.476 4.946z">
-                          </path>
-                        </g>
-                      </svg>
-                    </div>
-                    <span class="material-symbols-outlined rounded-full custom-posts-hover" style="font-size: 20px;">
-                      more_horiz
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <p>Last year miss aina kukkani isari rendu sarlu denge chance ochindi
-                <span class="text-tailwind-blue">@KKRiders</span>
-              </p>
-
-              <video src="assets/videos/3_games.mp4" controls autoplay muted
-                class="h-96 w-full  border border-tailwind-border rounded-2xl"></video>
-              <!-- [&>div>span:first-child]:text-tailwind-blue  -->
-              <div
-                class="interactions flex justify-between items-center  [&>div]:flex [&>div]:items-center [&>div]:gap-1 mt-2.5    [&>div]:w-20  [&>div>span:first-child]:p-1.5 ">
-
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:text-tailwind-blue ">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    chat_bubble</span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover  transition-all duration-150 hover:!text-green-600"
-                  data-color="green">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">share </span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:!text-pink-600"
-                  data-color="red">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    favorite
-                  </span>
-                  <span>25</span>
-                </div>
-                <div class="parent-custom-posts-hover transition-all duration-150 hover:text-tailwind-blue">
-                  <span class="material-symbols-outlined" style="font-size: 21px;">
-                    bar_chart</span>
-                  <span>25</span>
-                </div>
-                <div> <span class="material-symbols-outlined custom-posts-hover" style="font-size: 21px;">
-                    bookmark
-                  </span> <span class="material-symbols-outlined custom-posts-hover" style="font-size: 21px;">
-                    upload
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="post   border-y border-tailwind-border p-4 ">
-          <div class="postHeader  flex gap-2   ">
-            <img
-              src="https://media.gettyimages.com/id/2198970101/photo/washington-dc-tesla-and-spacex-ceo-elon-musk-delivers-remarks-as-he-joins-u-s-president.jpg?s=612x612&w=0&k=20&c=zZWoh08oe8UBI0-ahkFcKvw00FL2f-MjKrJZI4HsuzQ="
-              class="size-11 rounded-full object-cover " alt="">
-
-            <div class="userInfo-postData w-full    flex flex-col">
-              <div class="w-full">
-                <div class="infoAndMore flex   border-amber-500 justify-between w-full">
-                  <div
-                    class="info flex gap-1 items-start [&>p]:text-[#5e6367] [&>p:first-child]:text-white [&>p:first-child]:hover:underline [&>p:last-child]:hover:underline">
-                    <p class="font-bold"> elon musk </p>
-                    <p> @muskmellon </p>
-                    <p>.</p>
-                    <p>25/05/2000</p>
-                  </div>
-                  <div class="moreOptions flex  items-start h-fit     ">
-                    <div
-                      class="grok rounded-full p-1.5  hover:bg-[#202031]  hover:[&>svg]:fill-tailwind-blue transition-all duration-150">
-
-                      <svg viewBox="0 0 24 24" aria-hidden="true"
-                        class=" size-5    fill-white  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
-                        <g>
-                          <path
-                            d="M2.205 7.423L11.745 21h4.241L6.446 7.423H2.204zm4.237 7.541L2.2 21h4.243l2.12-3.017-2.121-3.02zM16.957 0L9.624 10.435l2.122 3.02L21.2 0h-4.243zm.767 6.456V21H21.2V1.51l-3.476 4.946z">
-                          </path>
-                        </g>
-                      </svg>
-                    </div>
-                    <span class="material-symbols-outlined rounded-full custom-posts-hover" style="font-size: 20px;">
-                      more_horiz
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <p>ladki ke chakkar me kabhi mt jana
-                <span class="text-tailwind-blue">#nogirls</span>
-              </p>
-              <img
-                src="data:image/jpeg;base64,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"
-                alt="">
-              <!-- <video src="assets/videos/3_games.mp4" controls autoplay muted                class="h-96 w-full border border-tailwind-border rounded-2xl"></video> -->
-
-              <div
-                class="interactions flex justify-between items-center  [&>div]:flex [&>div]:items-center [&>div]:gap-1 mt-2.5    [&>div]:w-20  [&>div>span:first-child]:p-1.5 ">
+                class="interactions flex justify-between items-center  [&>div]:flex [&>div]:items-center [&>div]:gap-1 mt-2.5    [&>div]:w-20  [&>div>span:first-child]:p-1.5  max-w-[90%] w-fit">
 
                 <div class="parent-custom-posts-hover transition-all duration-150 hover:text-tailwind-blue ">
                   <span class="material-symbols-outlined" style="font-size: 21px;">
